@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EasyAt</string>
+    <string name="append">Append</string>
+    <string name="print">Print</string>
+    <string name="show_logs_when_print_pressed">show logs when \'Print\' pressed</string>
+    <string name="switch1">Switch</string>
+    <string name="hint">\@同学</string>
+</resources>

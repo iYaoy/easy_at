@@ -2,7 +2,6 @@ package com.iyao.sample.method
 
 import android.graphics.*
 import android.graphics.drawable.BitmapDrawable
-import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.text.*

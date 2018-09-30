@@ -19,6 +19,10 @@ android {
         }
     }
 
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
 }
 
 publish {
@@ -28,11 +32,12 @@ publish {
     artifactId = 'easyat' //项目名称
     publishVersion = '1.0.0' //版本号
     desc = '' //项目介绍，可以不写
-    repository = 'https://github.com/iYaoy/android.git'
-    website = 'https://github.com/iYaoy/android' //项目主页，可以不写
+    repository = 'https://github.com/iYaoy/easy_at.git'
+    website = 'https://github.com/iYaoy/easy_at' //项目主页，可以不写
 
     //gradlew clean build bintrayUpload -PbintrayUser=iyao -PbintrayKey=638234134a732a690c0032db7a864b16b538f7ab -PdryRun=false --stacktrace
 }
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"

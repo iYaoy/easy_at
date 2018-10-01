@@ -6,11 +6,10 @@ A lightweight support library designed for EditTxet just to provide an idea to i
 [详细介绍](https://www.jianshu.com/p/83176fb89aed)
 
 
-<center>
-    <img src="https://github.com/iYaoy/easy_at/raw/master/display/qq.png" width="300">QQ</img>
-    <img src="https://github.com/iYaoy/easy_at/raw/master/display/weibo.png" width="300">Weibo</img>
-    <img src="https://github.com/iYaoy/easy_at/raw/master/display/weixin.png" width="300">WeChat</img>
-</center>
+<img src="https://github.com/iYaoy/easy_at/raw/master/display/qq.png" width="100">QQ</img>
+<img src="https://github.com/iYaoy/easy_at/raw/master/display/weibo.png" width="100">Weibo</img>
+<img src="https://github.com/iYaoy/easy_at/raw/master/display/weichat.png" width="100">WeChat</img>
+
 ## use it
 
 1. Add the repository which looks in Bintray's JCenter repository for it.

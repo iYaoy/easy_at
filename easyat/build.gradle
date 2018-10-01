@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 28
 
@@ -25,18 +24,6 @@ android {
 
 }
 
-publish {
-    repoName = 'android'
-    userOrg = 'iyao92' //bintray账户下某个组织id
-    groupId = 'com.iyao.easyat' //maven仓库下库的包名，一般为模块包名
-    artifactId = 'easyat' //项目名称
-    publishVersion = '1.0.0' //版本号
-    desc = '' //项目介绍，可以不写
-    repository = 'https://github.com/iYaoy/easy_at.git'
-    website = 'https://github.com/iYaoy/easy_at' //项目主页，可以不写
-
-    //gradlew clean build bintrayUpload -PbintrayUser=iyao -PbintrayKey=638234134a732a690c0032db7a864b16b538f7ab -PdryRun=false --stacktrace
-}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])

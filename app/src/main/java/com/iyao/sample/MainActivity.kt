@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
             User("11", "风清弊绝"),
             User("12", "天教艳质为眷属"),
             User("13", "独清独醒"),
-            User("14", "千金一刻庆良宵"))
+            User("14", "千金一刻庆良宵"),
+            User("15", "必须要\\n\n，不然不够长"))
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -35,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             if (methodContext.method == null) {
                 switch()
             }
-            val user = users[Random().nextInt(14)].copy()
+            val user = users[Random().nextInt(15)].copy()
             (normalEdit.text as SpannableStringBuilder)
                     .append(methodContext.newSpannable(user))
                     .append(" ")
@@ -48,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             txtLogs.text = editable.getSpans(0, normalEdit.length(), User::class.java).joinToString("\n") {
                 "$it, ${editable.getSpanStart(it)}, ${editable.getSpanEnd(it)}"
             }
+            txtLogs.scrollTo(0, 0)
         }
         txtLogs.movementMethod = ScrollingMovementMethod.getInstance()
     }

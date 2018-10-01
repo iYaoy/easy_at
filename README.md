@@ -5,7 +5,7 @@ A lightweight support library designed for EditTxet just to provide an idea to i
 
 [详细介绍](https://www.jianshu.com/p/83176fb89aed)
 
-[QQ](../display/qq.png) [Weibo](../display/weibo.png) [WeChat](../display/wechat.png)
+![QQ](../display/qq.png =300x) ![Weibo](../display/weibo.png =300x) ![WeChat](../display/wechat.png =300x)
 
 ## use it
 

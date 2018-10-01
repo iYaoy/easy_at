@@ -5,10 +5,9 @@ A lightweight support library designed for EditTxet just to provide an idea to i
 
 [详细介绍](https://www.jianshu.com/p/83176fb89aed)
 
-
-<img src="https://github.com/iYaoy/easy_at/raw/master/display/qq.png" width="240"/>
-<img src="https://github.com/iYaoy/easy_at/raw/master/display/weibo.png" width="240"/>
-<img src="https://github.com/iYaoy/easy_at/raw/master/display/wechat.png" width="240"/>
+![QQ](https://github.com/iYaoy/easy_at/raw/master/display/qq.png =240x)
+![Weibo](https://github.com/iYaoy/easy_at/raw/master/display/weibo.png =240x)
+![WeChat](https://github.com/iYaoy/easy_at/raw/master/display/wechat.png =240x)
 
 ## use it
 

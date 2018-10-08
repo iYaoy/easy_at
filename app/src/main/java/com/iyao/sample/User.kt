@@ -19,6 +19,6 @@ data class User(val id: String, var name: String): DataBindingSpan,
     override fun isDirty(text: Spannable): Boolean {
         val spanStart = text.getSpanStart(this)
         val spanEnd = text.getSpanEnd(this)
-        return spanStart >= 0 && spanEnd >= 0 && text.substring(spanStart, spanEnd) != name
+        return spanStart >= 0 && spanEnd >= 0 && text.substring(spanStart, spanEnd) != "@$name"
     }
 }
